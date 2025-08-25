@@ -1,0 +1,23 @@
+{
+  "name": "code",
+  "version": "1.0.0",
+  "description": "Trying Snake Game",
+  "main": "player.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://x-access-token:ghs_Rb0J7s8wZR4InMH9AewnazN0xoximc3ZrWIS@github.com/lutiqhas/UglySnake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lutiqhas/UglySnake/issues"
+  },
+  "homepage": "https://github.com/lutiqhas/UglySnake#readme",
+  "dependencies": {
+    "serve": "^14.2.4"
+  }
+}

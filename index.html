@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🐍 Snake Game Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-wrapper">
+        <header class="game-header">
+            <h1 class="game-title">
+                <span class="snake-emoji">🐍</span>
+                Snake Game Pro
+                <span class="snake-emoji">🐍</span>
+            </h1>
+            <p class="game-subtitle">Classic arcade fun with AI intelligence</p>
+        </header>
+
+        <div class="game-layout">
+            <div class="game-main">
+                <div id="game-container" class="game-canvas-container">
+                    <!-- Canvas será adicionado aqui pelo script.js -->
+                </div>
+
+                <div class="game-controls">
+                    <div class="control-section">
+                        <h3 class="control-title">Game Modes</h3>
+                        <div class="mode-buttons" id="mode-buttons">
+                            <!-- Botões de modo serão adicionados pelo script.js -->
+                        </div>
+                    </div>
+
+                    <div class="control-section">
+                        <h3 class="control-title">Game Control</h3>
+                        <div class="action-buttons" id="action-buttons">
+                            <!-- Botões de controle serão adicionados pelo script.js -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-sidebar">
+                <div class="stats-panel">
+                    <h3 class="panel-title">📊 Game Stats</h3>
+                    <div class="stats-grid" id="stats-container">
+                        <!-- Stats serão adicionados pelo script.js -->
+                    </div>
+                </div>
+
+                <div class="leaderboard-panel">
+                    <h3 class="panel-title">🏆 High Scores</h3>
+                    <div class="scores-list" id="scores-list">
+                        <!-- Lista de scores será adicionada pelo script.js -->
+                    </div>
+                </div>
+
+                <div class="instructions-panel">
+                    <h3 class="panel-title">🎮 How to Play</h3>
+                    <div class="instructions">
+                        <p><strong>Player Mode:</strong> Use arrow keys to control the snake</p>
+                        <p><strong>Auto Mode:</strong> Watch the computer play automatically</p>
+                        <p><strong>AI Mode:</strong> Experience advanced pathfinding AI</p>
+                        <p><strong>Goal:</strong> Eat red food to grow and increase your score!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
